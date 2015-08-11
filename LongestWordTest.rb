@@ -7,11 +7,10 @@
 
 
 def longest_word(sentence)
-	# sentence.split.max_by{|x|x.length}
 
- strings_array = sentence.split
+ string_array = sentence.split
 
- strings_array.max_by { |x| x.length }
+ string_array.max_by { |x| x.length }
 
 
 end
