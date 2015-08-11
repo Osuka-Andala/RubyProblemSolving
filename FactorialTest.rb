@@ -1,16 +1,15 @@
-def factorial(n)
+# Plan is to multiply n by (n-1) until (n-1) is equal to 1.
 
+def factorial(n)
    
 	if n < 0
+
 	return nill	
 	end
 
-    
     new_number =  1
-	while n > 0
 
-		# i = i * n
-		# n -= 1
+	while n > 0
 		new_number = new_number * n
 		 n -= 1
 	end	
