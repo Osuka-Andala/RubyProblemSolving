@@ -1,20 +1,21 @@
 def factorial(n)
 
+   
 	if n < 0
-		return  nill
+	return nill	
 	end
 
-    i = 1
     
+    new_number =  1
 	while n > 0
-		i = i * n
-		n -= 1
-		# new_number = n*((n-i))
-		#  i += 1
 
+		# i = i * n
+		# n -= 1
+		new_number = new_number * n
+		 n -= 1
 	end	
-    return i
-	# return new_numberr
+    # return i
+	 return new_number
 end
 
 
