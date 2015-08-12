@@ -7,25 +7,25 @@ def nearby_az(string)
             
 #              end
 
-  i = 0
-  while i < string.length
+  a = 0
+  while a < string.length
 
-	if string[i] != "a"
-		i += 1
+	if string[a] != "a"
+		a += 1
 		next
 	end
  
-    y = i + 1
-    while (y < string.length) && (y <= i + 3)
- 	  if string[y] == "z"
+    b = a + 1
+    while (b < string.length) && (b <= a + 3)
+ 	  if string[b] == "z"
  		return true
  	  end
 
- 	y += 1
+ 	b += 1
  	
     end
 
- i += 1
+ a += 1
 
   end
 
