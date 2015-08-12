@@ -5,7 +5,7 @@
 
 def third_greatest(nums)
 
-  # nums = []
+  # Sort the array in acsending order them call the 3rd last number.
 
   nums.sort[-3]
 
