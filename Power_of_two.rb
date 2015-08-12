@@ -6,25 +6,34 @@ def is_power_of_two?(num)
 
 	i = 0
 
-	# while 0 <= num
-		
+	 while ((2 ** i == num)  && (Math.log(num)/Math.log(2) == i))
+
 
 	   if ((2 ** i == num)  == (Math.log(num)/Math.log(2) == i)) 
+
 		return true
 
 		i += 1
 
+	   end 
+
+       if num == 0
+
+			return 0
 
 	   end
 
-
-
-    # end
-    
+     end 
+     
 	return false
 	
-    
-	
+
+	 #   elsif  ((2 ** i == num)  == (Math.log(num)/Math.log(2) == i))
+
+	 #    return true
+	 # end
+
+  #   return false
 end
 
 puts('is_power_of_two?(1) == true: ' + (is_power_of_two?(1) == true).to_s)
