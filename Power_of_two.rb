@@ -3,18 +3,18 @@
 # powers of: 2*2 = 4, 2*2*2 = 8, 2*2*2*2 = 16, 2*2*2*2*2 = 32.....
 
 def is_power_of_two?(num)
-	num = 0
+
 	i = 0
 
 	if (2 ** i == num)  && (Math.log(num)/Math.log(2) == i) 
 		return true
 
 		i += 1
-		num += 1
 
 	end
-
+    
 	return false
+	
 
 	
 end
