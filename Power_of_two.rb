@@ -6,16 +6,24 @@ def is_power_of_two?(num)
 
 	i = 0
 
-	if (2 ** i == num)  && (Math.log(num)/Math.log(2) == i) 
+	# while 0 <= num
+		
+
+	   if ((2 ** i == num)  == (Math.log(num)/Math.log(2) == i)) 
 		return true
 
 		i += 1
 
-	end
+
+	   end
+
+
+
+    # end
     
 	return false
 	
-
+    
 	
 end
 
