@@ -5,14 +5,14 @@ def reverse(string)
 
 	while i < string.length
 
-		reverse_string = string[i] + reverse_string[i]
+		reverse_string = string[i] + reverse_string
 		i += 1
 		
 	end
 
 	return reverse_string
 
-	end
+end
 
 
 puts('reverse("abc") == "cba": ' + (reverse("abc") == "cba").to_s)
