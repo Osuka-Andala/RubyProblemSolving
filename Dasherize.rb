@@ -7,16 +7,18 @@ def dasherize_number(num)
    	
 	new_num = num.to_s 
 
+	dash = "-"
+
 	new_num.each_char do |x| 
 
        if x.to_i.odd? 
 
-          return x.insert(-1, '-').insert(-2,'-') 
-          
+          dash += "-"
+
          end 
 	end
 
-
+return dash
 	
 end 
 
