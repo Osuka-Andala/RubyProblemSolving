@@ -5,12 +5,15 @@
 
 def dasherize_number(num)
    	
-	num.to_s.each_char do |x| 
+	new_num = num.to_s 
 
-if x.to_i.odd? 
+	new_num.each_char do |x| 
 
-return x.insert(-1, '-').insert(-2,'-') 
-end 
+       if x.to_i.odd? 
+
+          return x.insert(-1, '-').insert(-2,'-') 
+          
+         end 
 	end
 
 
