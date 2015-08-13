@@ -3,10 +3,17 @@
 
 
 def capitalize_words(string)
-	string_arr = []
+    
+	string_arr =string.split(" ")
 
-	string_arr.each do |x| x.upcase
+
+	new_string = string_arr.each.map do |x|
+
+		x[0].upcase + x.slice(1..(x.length))
+		
 	end
+		
+  return new_string.join(" ")
 
 end
 
