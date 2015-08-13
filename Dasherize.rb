@@ -4,21 +4,15 @@
 
 
 def dasherize_number(num)
-
-    num.odd?
-
-    # num.to_s
-    x = 0
-   while x < num.to_s.length
    	
-	new_num = num.to_s.each_char do |x| x.insert(-1, '-')
-	end
-x += 1
-		return new_num
+	num.to_s.each_char do |x| 
 
-        
+if x.to_i.odd? 
 
+return x.insert(-1, '-').insert(-2,'-') 
+end 
 	end
+
 
 	
 end 
