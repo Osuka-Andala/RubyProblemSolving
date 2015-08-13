@@ -13,7 +13,7 @@ def dasherize_number(num)
 
        if x.to_i.odd? 
 
-          dash += "-"
+          # dash += "-" something missing
 
          end 
 	end
