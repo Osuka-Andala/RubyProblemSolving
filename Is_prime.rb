@@ -6,7 +6,7 @@ def is_prime?(number)
 
 	i = 1
 	m = (i +=1)
-	if (number % number == 0) && (number % 1 == 0) && (number % i == m)
+	if (number % number == 0) && (number % 1 == 0) || (number % i == m)
 
 		return true
 		i += 1
