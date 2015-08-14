@@ -12,7 +12,7 @@ def most_common_letter(string)
 	         end
 
 	         pointer = string_arr.index(string_arr.max)
-	         return [[pointer], string_arr.max]
+	         return [string_arr[pointer], string_arr.max]
 	
 end
 
