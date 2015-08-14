@@ -5,7 +5,7 @@
 
 def third_greatest(nums)
 
-  # Sort the array in acsending order them call the 3rd last number.
+  # Sort the array in acsending order them call the 3rd last number, hence the negative.
 
   nums.sort[-3]
 
