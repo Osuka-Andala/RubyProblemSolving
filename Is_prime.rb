@@ -5,18 +5,21 @@
 def is_prime?(number)
 
 	i = 2
-	# m = (i +=1)
 
 	while (i < number) && (i >1)
 		
-	if (number % i == 0) 
-		# && (number % 1 == 0) || (number % i == m)
+	   if (number % i == 0) 
 
 		return false
+
+	   end
+
+	 i += 1
+
 	end
-		i += 1
-		end
-		return true
+
+  return true
+
 end
 
 puts('is_prime?(2) == true: ' + (is_prime?(2) == true).to_s)
