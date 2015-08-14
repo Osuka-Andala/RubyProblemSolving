@@ -4,14 +4,19 @@
 
 def is_prime?(number)
 
-	i = 1
-	m = (i +=1)
-	if (number % number == 0) && (number % 1 == 0) || (number % i == m)
+	i = 2
+	# m = (i +=1)
 
-		return true
+	while (i < number) && (i >1)
+		
+	if (number % i == 0) 
+		# && (number % 1 == 0) || (number % i == m)
+
+		return false
+	end
 		i += 1
 		end
-		return false
+		return true
 end
 
 puts('is_prime?(2) == true: ' + (is_prime?(2) == true).to_s)
